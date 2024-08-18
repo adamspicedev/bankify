@@ -67,9 +67,9 @@ export const formatDateTime = (dateString: Date) => {
 };
 
 export function formatAmount(amount: number): string {
-  const formatter = new Intl.NumberFormat("en-US", {
+  const formatter = new Intl.NumberFormat("en-NZ", {
     style: "currency",
-    currency: "USD",
+    currency: "NZD",
     minimumFractionDigits: 2,
   });
 
